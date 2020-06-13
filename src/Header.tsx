@@ -41,7 +41,6 @@ export default function Header() {
           <div style={{ margin: "0.4rem 0" }}> Hi, I'm Natasha.</div>
           <div>
             I'm a Front-End Developer. I like React, TypeScript, and animations.
-            Insert brief sales pitch here.
           </div>
           <div style={{ margin: "1rem 0" }}>
             I'm currently looking for a new role! Say hi at{" "}

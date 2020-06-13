@@ -40,6 +40,15 @@ function App() {
           </SkillContainer>
         </Section>
       </PageContent>
+      <Footer>
+        ©2020 Invite me for a ☕️ at{" "}
+        <a
+          style={{ textDecoration: "none", color: "rgba(0, 0, 0, 0.8)" }}
+          href="mailto:natashallawson@gmail.com"
+        >
+          natashallawson@gmail.com
+        </a>
+      </Footer>
     </AppContainer>
   );
 }
@@ -129,4 +138,13 @@ const StyledSkill = styled(motion.div)`
 const Icon = styled.img`
   width: 100%;
   height: 100%;
+`;
+
+const Footer = styled.div`
+  width: 100%;
+  border-top: 1px solid grey;
+  text-align center;
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+  
 `;
