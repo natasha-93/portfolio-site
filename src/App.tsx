@@ -13,11 +13,7 @@ function App() {
         <Section label="Projects">
           {projects.map((project) => {
             return (
-              <ProjectContainer
-                key={project.label}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-              >
+              <ProjectContainer key={project.label} whileHover={{ scale: 1.1 }}>
                 <a href={project.url} style={{ textDecoration: "none" }}>
                   <Image alt="project" src={project.image} />
                   <Label>{project.label}</Label>
@@ -41,7 +37,11 @@ function App() {
         </Section>
       </PageContent>
       <Footer>
-        ©2020 Invite me for a ☕️ at{" "}
+        ©2020 Invite me for a{" "}
+        <span role="img" aria-label="coffee">
+          ☕️
+        </span>{" "}
+        at{" "}
         <a
           style={{ textDecoration: "none", color: "rgba(0, 0, 0, 0.8)" }}
           href="mailto:natashallawson@gmail.com"

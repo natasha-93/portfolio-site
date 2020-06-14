@@ -25,7 +25,7 @@ export const projects = [
     image: require("./img/connect-four.png"),
     url: "https://github.com/natasha-93/connect-four-v2",
     info:
-      "Connect Four game with win detection. Made with React, TypeScript and Styled Components.",
+      "Connect Four game with win detection. Made with React, TypeScript, Styled Components and Jest unit tests. ",
   },
   // {
   //   label: "Image Gallery",

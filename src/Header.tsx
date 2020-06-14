@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ReactComponent as LinkedInIcon } from "./img/LinkedIn.svg";
 import { ReactComponent as GithubIcon } from "./img/Github.svg";
-import { ReactComponent as MailIcon } from "./img/mail.svg";
 import flower from "./img/FlowerIcon.png";
 
 import styled from "styled-components";
@@ -23,14 +22,12 @@ export default function Header() {
             <motion.a
               href="https://www.linkedin.com/in/natasha--lawson/"
               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
             >
               <LinkedInIcon style={{ padding: "0.1em" }} />
             </motion.a>
             <motion.a
               href="https://github.com/natasha-93"
               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
             >
               <GithubIcon style={{ padding: "0.1em" }} />
             </motion.a>
