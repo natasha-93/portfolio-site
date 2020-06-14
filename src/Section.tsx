@@ -23,7 +23,7 @@ export default function Section({ label, children }: SectionProps) {
 }
 
 const SectionContainer = styled(motion.div)`
-  padding: 2rem 0;
+  margin-bottom: 1rem;
 `;
 
 const Label = styled.div`

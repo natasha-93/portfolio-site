@@ -56,7 +56,7 @@ const HeaderContainer = styled.div`
   background-color: white;
   border-radius: 0 0 2rem 2rem;
   width: 100%;
-  margin: auto;
+  margin: auto auto 2rem auto;
   padding: 1rem 1.3rem 2rem 1.3rem;
 
   @media (min-width: 1000px) {
