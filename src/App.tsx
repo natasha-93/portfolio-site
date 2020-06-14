@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Header from "./Header";
 import Section from "./Section";
 import { projects, skills } from "./data";
+import Email from "./Email";
 
 function App() {
   return (
@@ -41,13 +42,7 @@ function App() {
         <span role="img" aria-label="coffee">
           ☕️
         </span>{" "}
-        at{" "}
-        <a
-          style={{ textDecoration: "none", color: "rgba(0, 0, 0, 0.8)" }}
-          href="mailto:natashallawson@gmail.com"
-        >
-          natashallawson@gmail.com
-        </a>
+        at <Email address="natashallawson@gmail.com" />
       </Footer>
     </AppContainer>
   );
@@ -74,8 +69,7 @@ const ProjectContainer = styled(motion.div)`
   border-radius: 2rem;
   background-color: white;
   padding-bottom: 1rem;
-  margin: 1rem;
-  min-width: 18.5rem;
+  margin: 1rem 0;
 
   @media (min-width: 768px) {
     max-width: 20rem;

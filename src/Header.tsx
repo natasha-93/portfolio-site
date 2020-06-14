@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Email from "./Email";
 import { ReactComponent as LinkedInIcon } from "./img/LinkedIn.svg";
 import { ReactComponent as GithubIcon } from "./img/Github.svg";
 import flower from "./img/FlowerIcon.png";
@@ -42,12 +43,7 @@ export default function Header() {
           <div style={{ margin: "1rem 0" }}>
             I'm currently looking for a new role! Say hi at{" "}
             <motion.span whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <a
-                style={{ textDecoration: "none", color: "black" }}
-                href="mailto:natashallawson@gmail.com"
-              >
-                natashallawson@gmail.com
-              </a>
+              <Email address="natashallawson@gmail.com" />
             </motion.span>
           </div>
         </Content>
