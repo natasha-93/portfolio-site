@@ -8,7 +8,7 @@ export const projects = [
   },
   {
     label: "Roll Turn App",
-    image: require("./img/vending-machine.png"), // NEEDS UPDATING!
+    image: require("./img/RollTurn.png"),
     url: "https://github.com/natasha-93/RollTurnV2",
     info:
       "React Native, TypeScript and Expo mobile app for rolling dice with customizable player names, colors and dice numbers. Uses local storage, speech, and a draggable flatlist.",
