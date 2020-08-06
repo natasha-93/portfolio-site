@@ -38,7 +38,7 @@ function App() {
         </Section>
       </PageContent>
       <Footer>
-        ©2020 Invite me for a{" "}
+        ©2020 Invite me for a (virtual){" "}
         <span role="img" aria-label="coffee">
           ☕️
         </span>{" "}
@@ -113,7 +113,7 @@ const StyledSkill = styled(motion.div)`
   color: rgba(0, 0, 0, 0.65);
   width: 8.4rem;
   height: 8.4rem;
-  padding: 1rem;
+  padding: 2rem 1rem;
   margin: 1rem;
   align-items: center;
   justify-content: center;

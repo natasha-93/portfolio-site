@@ -7,12 +7,19 @@ export const projects = [
       "This React/TypeScript project uses the Pixabay API, useReducer, useContext and a custom hook. It's styled with Styled Components and uses react-spring animations.",
   },
   {
-    label: "Vending Machine",
-    image: require("./img/vending-machine.png"),
-    url: "https://github.com/natasha-93/vending-machine",
+    label: "Roll Turn App",
+    image: require("./img/vending-machine.png"), // NEEDS UPDATING!
+    url: "https://github.com/natasha-93/RollTurnV2",
     info:
-      "Made with React and TypeScript. It's styled using CSS modules and includes custom vector images created using Affinity Designer.",
+      "React Native, TypeScript and Expo mobile app for rolling dice with customizable player names, colors and dice numbers. Uses local storage, speech, and a draggable flatlist.",
   },
+  // {
+  //   label: "Vending Machine",
+  //   image: require("./img/vending-machine.png"),
+  //   url: "https://github.com/natasha-93/vending-machine",
+  //   info:
+  //     "Made with React and TypeScript. It's styled using CSS modules and includes custom vector images created using Affinity Designer.",
+  // },
   {
     label: "Minesweeper",
     image: require("./img/minesweeper.png"),
@@ -38,7 +45,7 @@ export const projects = [
 
 export const skills = [
   {
-    label: "React",
+    label: "React / Native",
     image: require("./img/reactjs-icon.svg"),
   },
   {
@@ -54,7 +61,7 @@ export const skills = [
     image: require("./img/graphic-design.svg"),
   },
   {
-    label: "REST APIs",
+    label: "REST APIs / GraphQL",
     image: require("./img/api.svg"),
   },
   {

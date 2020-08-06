@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Email from "./Email";
 import { ReactComponent as LinkedInIcon } from "./img/LinkedIn.svg";
 import { ReactComponent as GithubIcon } from "./img/Github.svg";
+import { ReactComponent as StackOverflowIcon } from "./img/StackOverflow.svg";
+// import { ReactComponent as TashIcon } from "./img/tashcoloredcircle.svg";
 import flower from "./img/FlowerIcon.png";
 
 import styled from "styled-components";
@@ -32,16 +34,23 @@ export default function Header() {
             >
               <GithubIcon style={{ padding: "0.1em" }} />
             </motion.a>
+            <motion.a
+              href="https://stackoverflow.com/story/natashalawson"
+              whileHover={{ scale: 1.1 }}
+            >
+              <StackOverflowIcon style={{ padding: "0.1em" }} />
+            </motion.a>
           </Social>
         </Nav>
         <Content>
-          <Title>I make webapps.</Title>
+          {/* <StyledTash /> */}
+          <Title>I make web and mobile apps.</Title>
           <div style={{ margin: "0.4rem 0" }}> Hi, I'm Natasha.</div>
           <div>
-            I'm a Front-End Developer. I like React, TypeScript, and animations.
+            I'm a Front End Developer. I like React, TypeScript, and animations.
           </div>
           <div style={{ margin: "1rem 0" }}>
-            I'm currently looking for a new role! Say hi at{" "}
+            I'm currently available for new projects! Say hi at{" "}
             <motion.span whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
               <Email address="natashallawson@gmail.com" />
             </motion.span>
@@ -90,7 +99,7 @@ const Social = styled.div`
 const Title = styled.h3`
   color: black;
   font-family: "SpartanMB-bold";
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 
   @media (min-width: 550px) {
     font-size: 1.7rem;
@@ -99,6 +108,16 @@ const Title = styled.h3`
     font-size: 2.2rem;
   }
 `;
+
+// const StyledTash = styled(TashIcon)`
+//   width: 10rem;
+//   height: 10rem;
+
+//   @media (min-width: 550px) {
+//     width: 12rem;
+//     height: 12rem;
+//   }
+// `;
 
 const Content = styled.div`
   max-width: 650px;
