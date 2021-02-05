@@ -137,8 +137,7 @@ const Icon = styled.img`
 const Footer = styled.div`
   width: 100%;
   border-top: 1px solid grey;
-  text-align center;
+  text-align: center;
   padding: 1rem;
   color: rgba(0, 0, 0, 0.8);
-  
 `;

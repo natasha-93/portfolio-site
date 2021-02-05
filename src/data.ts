@@ -1,17 +1,24 @@
 export const projects = [
-  {
-    label: "Memory Cards",
-    image: require("./img/memory-cards.png"),
-    url: "https://github.com/natasha-93/matching-cards-game-v2",
-    info:
-      "This React/TypeScript project uses the Pixabay API, useReducer, useContext and a custom hook. It's styled with Styled Components and uses react-spring animations.",
-  },
+  // {
+  //   label: "Memory Cards",
+  //   image: require("./img/memory-cards.png"),
+  //   url: "https://github.com/natasha-93/matching-cards-game-v2",
+  //   info:
+  //     "This React/TypeScript project uses the Pixabay API, useReducer, useContext and a custom hook. It's styled with Styled Components and uses react-spring animations.",
+  // },
   {
     label: "Roll Turn App",
     image: require("./img/RollTurn.png"),
     url: "https://github.com/natasha-93/RollTurnV2",
     info:
       "React Native, TypeScript and Expo mobile app for rolling dice with customizable player names, colors and dice numbers. Uses local storage, speech, and a draggable flatlist.",
+  },
+  {
+    label: "SPLIT AF",
+    image: require("./img/SplitAF2.png"),
+    url: "https://www.splitaf.com/",
+    info:
+      "React Native, Firebase, TypeScript and Expo cross-platform app for splitting bills with friends at restaurants and bars. Uses auth, OCR and QR Scanner.",
   },
   // {
   //   label: "Vending Machine",
