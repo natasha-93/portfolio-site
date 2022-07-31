@@ -15,7 +15,12 @@ function App() {
           {projects.map((project) => {
             return (
               <ProjectContainer key={project.label} whileHover={{ scale: 1.1 }}>
-                <a href={project.url} style={{ textDecoration: "none" }}>
+                <a
+                  href={project.url}
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Image alt="project" src={project.image} />
                   <Label>{project.label}</Label>
                   <Info>{project.info}</Info>

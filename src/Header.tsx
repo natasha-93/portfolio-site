@@ -25,18 +25,24 @@ export default function Header() {
             <motion.a
               href="https://www.linkedin.com/in/natasha--lawson/"
               whileHover={{ scale: 1.1 }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <LinkedInIcon style={{ padding: "0.1em" }} />
             </motion.a>
             <motion.a
               href="https://github.com/natasha-93"
               whileHover={{ scale: 1.1 }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <GithubIcon style={{ padding: "0.1em" }} />
             </motion.a>
             <motion.a
               href="https://stackoverflow.com/users/5741899/natasha-lawson"
               whileHover={{ scale: 1.1 }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <StackOverflowIcon style={{ padding: "0.1em" }} />
             </motion.a>
