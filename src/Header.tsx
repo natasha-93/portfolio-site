@@ -35,7 +35,7 @@ export default function Header() {
               <GithubIcon style={{ padding: "0.1em" }} />
             </motion.a>
             <motion.a
-              href="https://stackoverflow.com/story/natashalawson"
+              href="https://stackoverflow.com/users/5741899/natasha-lawson"
               whileHover={{ scale: 1.1 }}
             >
               <StackOverflowIcon style={{ padding: "0.1em" }} />
