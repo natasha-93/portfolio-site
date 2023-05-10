@@ -49,26 +49,26 @@ export const projects = [
 export const skills = [
   {
     label: "React / Native",
-    image: require("./img/reactjs-icon.svg"),
+    image: require("./img/reactjs-icon.png"),
   },
   {
     label: "TypeScript",
-    image: require("./img/typescript.svg"),
+    image: require("./img/typescript.png"),
   },
   {
     label: "CSS",
-    image: require("./img/css.svg"),
+    image: require("./img/css.png"),
   },
   {
     label: "Design",
-    image: require("./img/graphic-design.svg"),
+    image: require("./img/graphic-design.png"),
   },
   {
     label: "REST APIs / GraphQL",
-    image: require("./img/api.svg"),
+    image: require("./img/api.png"),
   },
   {
     label: "Node",
-    image: require("./img/nodejs.svg"),
+    image: require("./img/nodejs.png"),
   },
 ];
